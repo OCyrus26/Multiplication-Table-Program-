@@ -9,6 +9,8 @@ public class MultiTableV3
 
 		int i = 1;	
 		int num,range;
+		System.out.print("Input a number: ");
+		int num1 = scan.nextInt();
 
 		while(i <= 10)
 		{ 
@@ -21,16 +23,7 @@ public class MultiTableV3
 			}
 			i++;
 			System.out.println();
-
-			System.out.print("Input a number: ");
-			int num1 = scan.nextInt();
-
-			for (int i1=0; i< 10; i++){
-				System.out.println(num1 + " x " + (i1+1) + " = " + 
-						(num1 * (i1+1)));
-			}
-
 		}
-
 	}
 }
+
